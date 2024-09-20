@@ -1,7 +1,7 @@
 [package]
 name = "claude-tokenizer"
 description = "Library for tokenizing text with the Anthropic Claude models."
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 authors = ["Tom Dallimore <me@tomdallimore.com>"]
 keywords = ["llm", "anthropic","ai", "gpt", "claude"]
