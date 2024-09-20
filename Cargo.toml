@@ -1,0 +1,10 @@
+[package]
+name = "claude-tokenizer"
+description = "Library for tokenizing text with the Anthropic Claude models."
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.89"
+tokenizers = "0.20.0"
