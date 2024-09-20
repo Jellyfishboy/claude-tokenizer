@@ -10,7 +10,7 @@ use tokenizers::pre_tokenizers::byte_level::ByteLevel;
 use tokenizers::tokenizer::{EncodeInput, Tokenizer};
 
 pub fn get_tokenizer() -> Tokenizer {
-    let tokenizer_data = include_bytes!("claude-v3-tokenization.json");
+    let tokenizer_data = include_bytes!("claude-v3-tokenizer.json");
 
     Tokenizer::from_bytes(tokenizer_data)
         .unwrap()
