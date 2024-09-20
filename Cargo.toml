@@ -3,6 +3,10 @@ name = "claude-tokenizer"
 description = "Library for tokenizing text with the Anthropic Claude models."
 version = "0.1.0"
 edition = "2021"
+authors = ["Tom Dallimore <me@tomdallimore.com>"]
+keywords = ["llm", "anthropic","ai", "gpt", "claude"]
+readme = "README.md"
+repository = "https://github.com/Jellyfishboy/claude-tokenizer"
 license = "MIT"
 
 [dependencies]
